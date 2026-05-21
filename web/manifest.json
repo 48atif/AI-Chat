@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "ai_chat",
     "short_name": "ai_chat",
+=======
+    "name": "bkash",
+    "short_name": "bkash",
+>>>>>>> c007a472bb0b96e11cdb551c3437ef207e6fe6f1
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

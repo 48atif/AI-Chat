@@ -1,10 +1,18 @@
 # Project-level configuration.
 cmake_minimum_required(VERSION 3.14)
+<<<<<<< HEAD
 project(ai_chat LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
 set(BINARY_NAME "ai_chat")
+=======
+project(bkash LANGUAGES CXX)
+
+# The name of the executable created for the application. Change this to change
+# the on-disk name of your application.
+set(BINARY_NAME "bkash")
+>>>>>>> c007a472bb0b96e11cdb551c3437ef207e6fe6f1
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.

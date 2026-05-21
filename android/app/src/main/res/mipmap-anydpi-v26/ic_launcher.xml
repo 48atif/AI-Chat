@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
   <background android:drawable="@color/ic_launcher_background"/>
+<<<<<<< HEAD
   <foreground android:drawable="@drawable/ic_launcher_foreground"/>
+=======
+  <foreground>
+      <inset
+          android:drawable="@drawable/ic_launcher_foreground"
+          android:inset="16%" />
+  </foreground>
+>>>>>>> c007a472bb0b96e11cdb551c3437ef207e6fe6f1
 </adaptive-icon>

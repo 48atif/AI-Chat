@@ -4,10 +4,17 @@ project(runner LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
+<<<<<<< HEAD
 set(BINARY_NAME "ai_chat")
 # The unique GTK application identifier for this application. See:
 # https://wiki.gnome.org/HowDoI/ChooseApplicationID
 set(APPLICATION_ID "com.example.ai_chat")
+=======
+set(BINARY_NAME "bkash")
+# The unique GTK application identifier for this application. See:
+# https://wiki.gnome.org/HowDoI/ChooseApplicationID
+set(APPLICATION_ID "com.example.bkash")
+>>>>>>> c007a472bb0b96e11cdb551c3437ef207e6fe6f1
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.

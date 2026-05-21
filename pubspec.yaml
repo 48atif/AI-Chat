@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 name: ai_chat
 description: A modern AI chatbot app built with Flutter using Provider and Durjoy AI API.
+=======
+name: bkash_clone
+
+description: "A premium bKash Flutter Clone using Provider"
+
+>>>>>>> c007a472bb0b96e11cdb551c3437ef207e6fe6f1
 publish_to: 'none'
 
 version: 1.0.0+1
@@ -11,6 +18,7 @@ dependencies:
   flutter:
     sdk: flutter
 
+<<<<<<< HEAD
   # State Management
   provider: ^6.1.2
 
@@ -29,21 +37,51 @@ dependencies:
 
   # Icons
   cupertino_icons: ^1.0.8
+=======
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  provider: ^6.1.2
+
+  # SVG Support
+  flutter_svg: ^2.0.10+1
+
+  # Fonts
+  google_fonts: ^6.2.1
+
+  # Icons
+  iconsax: ^0.0.8
+
+  # Network Image Cache
+  cached_network_image: ^3.3.1
+
+  # Splash Screen
+  flutter_native_splash: ^2.4.1
+>>>>>>> c007a472bb0b96e11cdb551c3437ef207e6fe6f1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
+<<<<<<< HEAD
   flutter_lints: ^4.0.0
 
   # App Icon Generator
   flutter_launcher_icons: ^0.13.1
+=======
+  flutter_lints: ^5.0.0
+
+  # App Icon Generator
+  flutter_launcher_icons: ^0.14.1
+
+>>>>>>> c007a472bb0b96e11cdb551c3437ef207e6fe6f1
 
 flutter:
 
   uses-material-design: true
 
   assets:
+<<<<<<< HEAD
     - assets/ai.png
 
 flutter_launcher_icons:
@@ -54,3 +92,36 @@ flutter_launcher_icons:
 
   adaptive_icon_background: "#14B8A6"
   adaptive_icon_foreground: "assets/ai.png"
+=======
+    - assets/
+    - assets/bkash.png
+    - assets/bkash_logo.png
+
+
+flutter_launcher_icons:
+
+  android: true
+  ios: true
+
+  image_path: "assets/bkash.png"
+
+  adaptive_icon_background: "#E2136E"
+  adaptive_icon_foreground: "assets/bkash.png"
+
+  min_sdk_android: 21
+
+flutter_native_splash:
+
+  color: "#E2136E"
+
+  image: assets/bkash_logo.png
+
+  android: true
+  ios: true
+
+  android_12:
+    color: "#E2136E"
+    image: assets/bkash_logo.png
+
+  fullscreen: true
+>>>>>>> c007a472bb0b96e11cdb551c3437ef207e6fe6f1

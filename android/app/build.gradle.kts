@@ -6,7 +6,11 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
     namespace = "com.example.ai_chat"
+=======
+    namespace = "com.example.bkash"
+>>>>>>> c007a472bb0b96e11cdb551c3437ef207e6fe6f1
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -21,7 +25,11 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+<<<<<<< HEAD
         applicationId = "com.example.ai_chat"
+=======
+        applicationId = "com.example.bkash"
+>>>>>>> c007a472bb0b96e11cdb551c3437ef207e6fe6f1
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
